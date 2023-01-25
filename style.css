@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: purple;
+  color: white;
+}
+
+#navbar {
+  display: flex;
+  background-color: lightseagreen;
+  width: 100vw;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  color: maroon;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  margin: 17px 198px;
+}
+ul li {
+  list-style: none;
+  padding: 0px 32px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+ul li:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  color: lightseagreen;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+nav h1 {
+  margin: 15px 60px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Fredoka One", cursive;
+}
+
+.btn {
+  cursor: pointer;
+  color: white;
+  height: 27px;
+  width: 106px;
+  font-size: 1.2;
+  border-radius: 3px;
+  background-color: rgb(159 134 151);
+  border-color: white;
+  padding: 0px 67px;
+  margin-left: 269px;
+  margin-bottom: -7px;
+  padding: 3px 20px;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  border-color: white;
+  color: #633991;
+  background-color: white;
+}
+#home {
+  font-size: 20px;
+  text-align: center;
+  margin: 95px 222px;
+  font-family: "Open Sans", sans-serif;
+}
+#home div h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+#home div p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#sponsers {
+  background-color: white;
+}
+
+.client_img {
+  padding: 12px 240px;
+  margin: 8px 0px;
+}
+
+#learn {
+  font-size: 20px;
+  background-color: rgb(245 245 245);
+  color: black;
+  text-align: center;
+  padding: 35px 18px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+section .container {
+  display: flex;
+  margin: 19px 51px;
+  margin-bottom: 0px;
+}
+
+section .card {
+  border: 0px solid black;
+  margin: 23px 23px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 1px 2px 4px #a5a1a1;
+}
+
+.card:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 3px 5px #a5a1a1;
+}
+
+.card img {
+  height: 40px;
+  /* padding: 0px 12px; */
+  position: relative;
+  right: 23px;
+  bottom: 5px;
+}
+.card span {
+  display: flex;
+  justify-content: center;
+}
+section h2 {
+  padding-top: 23px;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #633991;
+  font-weight: bold;
+}
+.start {
+  font-size: 1.1rem;
+  color: rgb(117, 117, 109);
+}
+section .headingH3 {
+  font-size: 1.5rem;
+  color: #633991;
+  cursor: pointer;
+}
+
+section .desc {
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+footer {
+  height: 70px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+p {
+  padding-top: 20px;
+}
+
+footer span {
+  color: #633991;
+  font-size: 20px;
+}
